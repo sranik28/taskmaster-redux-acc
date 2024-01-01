@@ -22,7 +22,6 @@ const TaskCard = ({ task }) => {
 
   
 
-  
   return (
     <div className="p-5 rounded-md bg-secondary/10">
       <h1
