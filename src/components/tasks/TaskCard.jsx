@@ -9,7 +9,7 @@ const TaskCard = ({ task }) => {
   const dispatch = useDispatch();
 
   let updateStatus;
-  if (task.status === "pending") {
+  if (task.status === "pendingg") {
     updateStatus = "running";
   } else if (task.status === "running") {
     updateStatus = "done";
