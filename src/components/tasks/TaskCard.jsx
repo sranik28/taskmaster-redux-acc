@@ -8,8 +8,10 @@ import {
 const TaskCard = ({ task }) => {
   const dispatch = useDispatch();
 
+  
+  
   let updateStatus;
-  if (task.status === "pendingg") {
+  if (task.status === "pending") {
     updateStatus = "running";
   } else if (task.status === "running") {
     updateStatus = "done";
